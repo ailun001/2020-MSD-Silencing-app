@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/tvTitle"
+        android:text="@string/title"
+        android:textAppearance="@android:style/TextAppearance.Material.Display3"
+        android:background="#81CBFC"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/tvLocation"
+        android:text="@string/location"
+        android:textAppearance="@android:style/TextAppearance.Material.Headline"
+        android:background="#81CBFC"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/tvTime"
+        android:text="@string/time"
+        android:textAppearance="@android:style/TextAppearance.Material.Headline"
+        android:background="#81CBFC"
+        />
+    <Button
+        android:id="@+id/btCalendar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="@string/calendar_list"
+        android:onClick="calendarClick"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        >
+        <CheckBox
+            android:id="@+id/cb_Mode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <CheckedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@android:style/TextAppearance.Material.Headline"
+            android:text="@string/cb_text"
+            />
+    </LinearLayout>
+
+    <com.polyak.iconswitch.IconSwitch
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center|end"
+        android:id="@+id/sMode"
+        app:isw_icon_left="@drawable/ic_volume_off"
+        app:isw_icon_right="@drawable/ic_volume_up"
+        app:isw_icon_size="70dp"
+        app:isw_default_selection="right"
+        />
+</LinearLayout>

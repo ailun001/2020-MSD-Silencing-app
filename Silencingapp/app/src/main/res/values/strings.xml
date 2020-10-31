@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Silencing app</string>
+    <string name="title">Title</string>
+    <string name="location">Location: </string>
+    <string name="time">Time: </string>
+    <string name="title0">Title</string>
+    <string name="location0">Location</string>
+    <string name="time0">Time</string>
+    <string name="priority">Priority: </string>
+    <string name="cb_text">Silence Auto</string>
+    <string name="time_hit">Time: hh:mm</string>
+    <string name="date_hit">Date: DD/MM/YYYY</string>
+    <string name="calendar_list">Calendar List</string>
+    <string name="number1">1</string>
+    <string name="place_api_key">AIzaSyAcI5tcYv3QiotPSeEwiK46M2tRfrMydLs</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="location_open">Location Opening…</string>
+    <string name="save">Save</string>
+    <string name="delete_all">Delete All</string>
+
+
+
+</resources>

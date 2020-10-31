@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    >
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/edit_add_title"
+        android:hint="@string/title"
+        android:inputType="text"
+        android:autofillHints=""
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/location"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_add_location"
+        android:hint="@string/location"
+        android:inputType="text"
+        android:autofillHints=""
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/time"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_add_Time"
+        android:hint="@string/time_hit"
+        android:inputType="time"
+        android:autofillHints=""
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_add_Date"
+        android:hint="@string/date_hit"
+        android:inputType="date"
+        android:autofillHints=""
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/priority"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        />
+    <NumberPicker
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/number_add_priority"
+        />
+
+
+</LinearLayout>
